@@ -1,0 +1,59 @@
+img{
+    width: 80px;
+    height: 80px;
+}
+.nomeSite{
+    font-family: 'Brush Script MT', cursive;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.operacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+.sinal{
+    size: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.caixaValor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+button {
+    background-color: #000000;
+
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+span{
+    background-color: #000000; 
+    border: 10px;
+    color: #ffffff;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+  

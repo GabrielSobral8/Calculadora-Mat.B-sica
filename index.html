@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Basica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a>
+  <img src="https://sme.goiania.go.gov.br/conexaoescola/wp-content/uploads/2020/10/unnamed-e1603307496885.png">
+  <div class="nomeSite"><h2>Mat.Básica</h2></div>
+  </a>
+<div class="titulo"><h1>Faça sua conta aqui!</h1></div>
+
+
+    <div class="operacoes"><h3>Soma</h3></div>
+<div class="caixaValor">
+    <div class="Digite">
+        <div><input id="item1" type="number" step="1" placeholder="0"></div>
+    </div>
+    <div class="sinal">+</div>
+    <div class="Digite">
+        <div><input id="item2" type="number" step="1" placeholder="0"></div>
+    </div>
+    <button onclick="ResultadoSoma()"> = </button>
+    <div><span id="resSoma">0</span></div>
+    </div>
+ </div>
+
+
+    
+    <div class="operacoes"><h3>Multiplicação</h3></div>
+<div class="caixaValor">
+    <div class="Digite">
+        <div><input id="item3" type="number" step="1" placeholder="0"></div>
+    </div>
+    <div class="sinal">x</div>
+    <div class="Digite">
+        <div><input id="item4" type="number" step="1" placeholder="0"></div>
+    </div>
+    <button onclick="ResultadoMultiplicacao()"> = </button>
+    <div><span id="resMultiplicacao">0</span></div>
+ </div>
+
+
+
+    <div class="operacoes"><h3>Subtração</h3></div>
+<div class="caixaValor">
+    <div class="Digite">
+        <div><input id="item5" type="number" step="1" placeholder="0"></div>
+    </div>
+    <div class="sinal">-</div>
+    <div class="Digite">
+        <div><input id="item6" type="number" step="1" placeholder="0"></div>
+    </div>
+    <button onclick="ResultadoSubtracao()"> = </button>
+    <div><span id="resSubtracao">0</span></div>
+</div>
+    
+
+
+    <div class="operacoes"><h3>Divisão</h3></div>
+<div class="caixaValor">
+    <div class="Digite">
+        <div><input id="item7" type="number" step="1" placeholder="0"></div>
+    </div>
+    <div class="sinal">÷</div>
+    <div class="Digite">
+        <div><input id="item8" type="number" step="1" placeholder="0"></div>
+    </div> 
+    <button onclick="ResultadoDivisao()"> = </button>
+    <span id="resDivisao">0</span>
+</div>
+    
+</body>
+<script src="script.js"></script>
+</html>
